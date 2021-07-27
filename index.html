@@ -1,51 +1,98 @@
-<!doctype html>
-	<!DOCTYPE html>
+<!DOCTYPE html>
 	<html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Sargun's Porfolio</title>
-		<div align="right">
-		<a href="contactme.html" target="_blank"><button type="submit">Contact Me</button></a>
-	</div>
 		<style>
+		table{
+			margin-left: auto;
+			margin-right: auto;
+		}
 table, th, td {
   border: 1px solid black;
  border-collapse: collapse;
+ padding: 1rem;
+
 }
 h1{
-	color: blue;
+	color: black;
+	
 }
-button{
+
+nav{
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+}    
+.navbar{
 	border: none;
 	background-color: green;
 	text-align: center;
-	padding: 15px 32px;
+	padding: 12px 28px;
 	font-size: 16px;
 	color: white;
 	cursor: pointer;
+	float: right;
+	text-decoration: none;
+}
+nav: hover{
+	text-decoration: underline;
+}  
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p{
+	font-size: 20px;
+	text-align: center;
+}
+#technical,#skills, #marksheet {
+	font-size: 20px;
+}
+.container, #technical, #skills{
+	background-color: lightseagreen;
 }
 </style>
 	</head>
 	<body bgcolor="powderblue">
-		<h1 align="center">My Portfolio</h1>
-		<img src="image.jfif"><br><br>
-		<div class="container">
-		 <p>My name is Sargun Kaur. I am pursuing B.Tech from Chitkara University. I am currently working as an Intern in Cybergroup.</p>
-		 My Technical skills:
-		 <ul type="square">
-		 	<li>HTML</li>
-		 	<li>CSS</li>
-		 	<li>C</li>
-		 	<li>Java</li>
-		 </ul>
-		 My Skills:
-		 <ol>
-		 	<li>Communication Skills</li>
-		 	<li>Teamwork</li>
-		 	<li>Leadership Skills</li>
-		 </ol>
+		<br><br><br>
+		<nav>	
+			<a href="contactme.html" target="_blank" class="navbar">Contact Me</a>
+			<a href="#marksheet" class="navbar">Marksheet</a>
+			<a href="#skills" class="navbar">Skills</a>
+			<a href="#technical" class="navbar">Technical Skills</a>
+			<a href="#about" class="navbar">About</a>
 
-		 <p>Marksheet:</p>
+		</nav>
+		<h1 align="center">MY PORTFOLIO</h1>
+		<img src="image.jfif"><br><br>
+		<div class="container" id="about">
+		 <p>My name is Sargun Kaur. <br>
+		 	I am pursuing B.Tech from Chitkara University.<br>
+		 	I am currently working as an Intern in Cybergroup.</p> </div>
+		 <div id="technical" align="center">
+		<h3> My Technical skills:</h3>
+		 
+		 	HTML
+		 	CSS
+		 	C
+		 	Java
+		 </ul>
+		</div>
+		<div id="skills" align="center">
+		 <h3>My Skills:</h3>
+		 	Communication Skills
+		 	Teamwork
+		 	Leadership Skills
+		 
+    </div>
+    <div id="marksheet" align="center">
+		 <h3>Marksheet:</h3>
 		 <table>
 		 	<tr>
 		 		<th>Semester</th>
@@ -68,10 +115,8 @@ button{
 		 		<td>8.5</td>
 		 	</tr>
 		 </table>
-		</div>
+		</div> 
 		<br>
-	<div align="center">
-		 <a href="https://www.google.com/" target="_blank">Click here</a>
-		</div>
+	
 	</body>
 	
