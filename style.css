@@ -1,0 +1,213 @@
+body{
+	font-family: 'Jost', sans-serif;
+    background-color: black;
+}
+*{
+	color: white;
+	margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.header {
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4));
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+h3{
+	text-align: center;
+    padding: 12px 28px;
+    font-size: 20px;
+    
+}
+/*.nav_items {
+    display: flex;
+    list-style: none;
+    padding: 8px; */
+}
+/*.nav_item:not(:last-child) {
+    margin-right: 20px; */
+}
+a{
+	text-decoration: none;
+}
+.image{
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.nav_link {
+	  text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 0;
+    color: inherit;
+    transition: all .2s;
+    font-size: 20px;
+}
+.nav_link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    display: inline-block;
+    height: 1rem;
+    background: white;
+    transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
+}
+
+.nav_link:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+.nav_link:hover::after {
+    right: 0;
+    height: 2px;
+    background: pink;
+}
+.header__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.heading-primary {
+	margin-left: 200px;
+	font-size: 50px;
+}
+.name{
+    
+    margin-top: 250px;
+    margin-left: 250px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+}
+.header__text p{
+    margin: 1.5rem 0 3.5rem;
+    margin-left: 450px;
+    margin-top: 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+}
+.header__text p {
+        transform: scale(.8);
+    }
+.all{
+    background-color: black;
+}   
+.row{
+    padding-top: 3%;
+} 
+#aboutme{
+    padding-top: 5%;
+}
+#aboutme h1{
+    color: hotpink;
+}
+.data1{
+    align-items: center;
+    width: 50%;
+    padding-left: 10rem;
+    padding-right: 0rem;
+}
+.data1 p{
+    font-size: 17px;
+    
+}
+.data2{
+    align-items: center;
+    width: 50%;
+    padding-left: 20rem;
+}
+.table2{
+    border-collapse: collapse;
+    font-size: 17px;
+}
+.table2 td{
+    padding: 10px;
+}
+.tcolor{
+    color: hotpink;
+}
+.table3 td{
+    padding: 20px
+}
+.edu{
+    color: hotpink;
+}
+.line{
+    border: 1px solid hotpink;
+    box-sizing: content-box;
+    overflow: visible;
+    
+    
+}
+.university, .twelfth, .tenth {
+    border: 1px solid #eee;
+    background-color: #f8f9fa;
+}
+.m-4 {
+    margin: 1.5rem;
+    
+}
+.edu h3,p{
+    color: black;
+}
+.edu p{
+    font-size: 17px;
+}
+.badge p{
+    text-align: center;
+}
+.n-4{
+    background-color: lightpink;
+}
+
+.myskill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}   
