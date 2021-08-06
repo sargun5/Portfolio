@@ -1,6 +1,7 @@
 body{
     font-family: 'Jost', sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 *{
     color: white;
@@ -26,14 +27,7 @@ h3{
     font-size: 20px;
     
 }
-/*.nav_items {
-    display: flex;
-    list-style: none;
-    padding: 8px; */
-}
-/*.nav_item:not(:last-child) {
-    margin-right: 20px; */
-}
+
 a{
     text-decoration: none;
 }
@@ -256,5 +250,39 @@ input[type=submit]:hover {
 .gap{
     margin-top: 50px;
 }
+.image1{
+    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 60px;
+}
+footer{
+    padding: 53px;
+    background-image: url("footerbg.jfif");
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
 
+}
+.heading{
+    margin: justify;
+}
+button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-decoration: none;
+}
 
+button:hover {
+    border: 2px solid white;
+    background-color: black;
+    opacity: 0.8;
+}
